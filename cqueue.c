@@ -45,7 +45,7 @@ int main()
 		 }
 		 default:
 		 	{
-		 		printf("Invalid chioce");
+		 		printf("Incorrect-- chioce");
 		 	}
 
 
@@ -57,11 +57,11 @@ int main()
 void push()
 {
     int item;
-    printf("\nEnter the no:-");
+    printf("\nEnter the item-  :");
     scanf("%d",&item);
 	if((front== 0 && rear==max-1)||(front==rear+1))
 	{
-		printf("QUEUE is full");
+		printf("---:QUEUE is full");
 		return;
 	}
 	else
